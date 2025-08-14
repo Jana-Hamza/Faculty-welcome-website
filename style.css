@@ -165,18 +165,12 @@ header{
 .gallery-items .item-9{
   grid-area: item9;
 }
-.gallery-items .item-10{
-  grid-area: item10;
-}
 .gallery-items .item-11{
   grid-area: item11;
 }
 .gallery-items .item-12{
   grid-area: item12;
 }
-/* .gallery-items .item-13{
-  grid-area: item13;
-} */
 .gallery-items .item-14{
   grid-area: item14;
 }
@@ -288,4 +282,5 @@ footer{
     width: 100%;
     order: 0;
   }
+
 }
