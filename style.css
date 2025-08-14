@@ -122,10 +122,10 @@ header{
   display: grid;
   grid-template-areas: 
   ". item1 item1 ."
-  "item3 item4 item5 item6"
-  "item7 item8 item9 item10" 
-  "item12 item2 item14 item11 "
-  ". item15 item15 ."
+  "item2 item3 item4 item5"
+  "item6 item7 item8 item9" 
+  "item10 item11 item12"
+  ". item13 item13 ."
   ;
   gap: 5px;
   align-items: baseline;
@@ -165,17 +165,17 @@ header{
 .gallery-items .item-9{
   grid-area: item9;
 }
+.gallery-items .item-10{
+  grid-area: item10;
+}
 .gallery-items .item-11{
   grid-area: item11;
 }
 .gallery-items .item-12{
   grid-area: item12;
 }
-.gallery-items .item-14{
-  grid-area: item14;
-}
-.gallery-items .item-15{
-  grid-area: item15;
+.gallery-items .item-13{
+  grid-area: item13;
 }
 .contact-header{
   text-align:center;
@@ -284,3 +284,4 @@ footer{
   }
 
 }
+
